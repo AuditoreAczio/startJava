@@ -1,178 +1,178 @@
 public class VariableNamesTheme {
 
     public static void main(String[] args) {
+        // цифра
         int number = 7;
         System.out.println(number);
-        // цифра
 
+        // сумма простых чисел
         int sum = 1 + 2;
         System.out.println(sum);
-        // сумма простых чисел
 
+        // произведение чисел
         int x = 6;
         int y = 4;
         int z = x * y;
         System.out.println(z);
-        // произведение чисел
 
+        // максимально число
         int max = 43;
         System.out.println(max);
-        // максимально число
 
+        // количество десятков
         int numberOfTens = 10;
         System.out.println(numberOfTens);
-        // количество десятков
 
+        // вес собаки
         int sizeDogWeight = 14;
         System.out.println(sizeDogWeight);
-        // вес собаки
 
+        // целое число
         int originalNumber = 5;
         System.out.println(originalNumber);
-        // целое число
 
+        // процент по вкладу
         int interestOnTheDeposit = 15;
         System.out.println(interestOnTheDeposit);
-        // процент по вкладу
 
+        // код ошибки
         int errorCode = 144;
         System.out.println(errorCode);
-        // код ошибки
 
+        // счет в игре
         int gameScore = 23;
         System.out.println(gameScore);
-        // счет в игре
 
+        // максимальная длина
         int maxLenght = 34;
         System.out.println(maxLenght);
-        // максимальная длина
 
+        // выбор
         int choose = 3;
         System.out.println(choose);
-        // выбор
 
+        // тип сообщений
         int messageType = 4;
         System.out.println(messageType);
-        // тип сообщений
 
+        // математическое выражение
         int mathematicalExpression = 67;
         System.out.println(mathematicalExpression);
-        // математическое выражение
 
+        // случайное число
         int randomNumber = 5;
         System.out.println(randomNumber);
-        // случайное число
 
+        // число нулей
         int numberOfZeros = 6;
         System.out.println(numberOfZeros);
-        // число нулей
-      
+
+        // стоимость кофе на вынос
         int costCoffeeToGo = 43;
         System.out.println(costCoffeeToGo);
-        // стоимость кофе на вынос
-      
+
+        // дата начала
         int startDate = 23;
         System.out.println(startDate); 
-        // дата начала
 
+        // имя работника месяца
         int fullNameEmployeeOfTheMonth = 2;
         System.out.println(fullNameEmployeeOfTheMonth);
-        // имя работника месяца
 
+        // заголовок электронной книги
         int theTitleOfTheEbook = 3;
         System.out.println(theTitleOfTheEbook);
-        // заголовок электронной книги
 
+        // окончание диапазона
         int endOfTheRange = 6;
         System.out.println(endOfTheRange);
-        // окончание диапазона
 
+        // размер
         int size = 5;
         System.out.println(size);
-        // размер
 
+        // вместимость
         int capacity = 7;
         System.out.println(capacity);
-        // вместимость
 
+        // счетчик
         int counter = 8;
         System.out.println(counter);
-        // счетчик
 
+        // путь до файла
         int pathToFile = 9;
         System.out.println(pathToFile);
-        // путь до файла
 
+        // количество чисел в каждой строке
         int theNumberOfNumbersInEachRow = 4;
         System.out.println(theNumberOfNumbersInEachRow);
-        // количество чисел в каждой строке
 
+        // переменная хранит символ &
         int theVariableStoresTheSymbol = 7;
         System.out.println(theVariableStoresTheSymbol);
-        // переменная хранит символ &
 
-        boolean hundredsAreEqual = true;
-        System.out.println(hundredsAreEqual);
         // сотни равны?
+        boolean hasHundredsEqual = true;
+        System.out.println(hasHundredsEqual);
 
-        boolean computerIsTurnedOn = false;
-        System.out.println(computerIsTurnedOn);
         // компьютер включен?
+        boolean hasComputerIsTurnedOn = false;
+        System.out.println(hasComputerIsTurnedOn);
 
-        boolean haveEualNmbers = true;
-        System.out.println(haveEualNmbers);
         // есть равные цифры
+        boolean hasEualNmbers = true;
+        System.out.println(hasEualNmbers);
 
+        // создано
         boolean create = false;
         System.out.println(create);
-        // создано
 
-        boolean empty = false;
-        System.out.println(empty);
         // пустое 
+        boolean isempty = false;
+        System.out.println(isEmpty);
 
-        boolean activity = true;
-        System.out.println(activity);
         // активное 
+        boolean isactivity = true;
+        System.out.println(isActivity);
 
-        boolean theNew = false;
-        System.out.println(theNew);
-        // 
+        // новое
+        boolean isNew = false;
+        System.out.println(isNew);
 
-        boolean theEmailIsValid = true;
-        System.out.println(theEmailIsValid);
         // электронная почта действительная
+        boolean isEmailValid = true;
+        System.out.println(isEmailIsValid);
 
-        boolean thereAreUniqueStrings = true;
-        System.out.println(thereAreUniqueStrings);
         // имеются уникальные строки
+        boolean hasUniqueStrings = true;
+        System.out.println(hasUniqueStrings);
 
+        // старый universally unique identifier
         long oldUuid = 78;
         System.out.println(oldUuid);
-        // старый universally unique identifier
 
-        int manufacturerRam = 0;
-        System.out.println(manufacturerRam);
         // Производитель оперативной памяти
+        int ram = 0;
+        System.out.println(ram);
 
-        int hardDriveCapacity = 67;
-        System.out.println(hardDriveCapacity);
         // емкость жесткого диска
+        int hdd = 67;
+        System.out.println(hdd);
 
-        int hypertextTransferProtocol = 895;
-        System.out.println(hypertextTransferProtocol);
         // протокол передачи гипертекста
+        int http = 895;
+        System.out.println(http);
 
-        int abbreviatedUniformResourceLocator = 90;
-        System.out.println(abbreviatedUniformResourceLocator);
         // сокращенный uniform resource locator
+        int url = 90;
+        System.out.println(url);
 
+        // новый идентификатор клиента
         int newClientId = 12376;
         System.out.println(newClientId);
-        // новый идентификатор клиента
 
-        int encodingOfTheAmericanStandardCodeForInformationExchange = 87;
-        System.out.println(encodingOfTheAmericanStandardCodeForInformationExchange);
         // кодировка american standard code for information interchange
+        int ascii = 87;
+        System.out.println(ascii);
     }
 }

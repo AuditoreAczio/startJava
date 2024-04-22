@@ -32,8 +32,8 @@ public class VariableNamesTheme {
         System.out.println(originalNumber);
 
         // процент по вкладу
-        int interestOnTheDeposit = 15;
-        System.out.println(interestOnTheDeposit);
+        int interestOnDeposit = 15;
+        System.out.println(interestOnDeposit);
 
         // код ошибки
         int errorCode = 144;
@@ -76,16 +76,16 @@ public class VariableNamesTheme {
         System.out.println(startDate); 
 
         // имя работника месяца
-        int fullNameEmployeeOfTheMonth = 2;
-        System.out.println(fullNameEmployeeOfTheMonth);
+        int fullNameEmployeeOfMonth = 2;
+        System.out.println(fullNameEmployeeOfMonth);
 
         // заголовок электронной книги
-        int theTitleOfTheEbook = 3;
-        System.out.println(theTitleOfTheEbook);
+        int titleOfEbook = 3;
+        System.out.println(titleOfEbook);
 
         // окончание диапазона
-        int endOfTheRange = 6;
-        System.out.println(endOfTheRange);
+        int endOfRange = 6;
+        System.out.println(endOfRange);
 
         // размер
         int size = 5;
@@ -104,12 +104,12 @@ public class VariableNamesTheme {
         System.out.println(pathToFile);
 
         // количество чисел в каждой строке
-        int theNumberOfNumbersInEachRow = 4;
-        System.out.println(theNumberOfNumbersInEachRow);
+        int numberOfNumbersInEachRow = 4;
+        System.out.println(numberOfNumbersInEachRow);
 
         // переменная хранит символ &
-        int theVariableStoresTheSymbol = 7;
-        System.out.println(theVariableStoresTheSymbol);
+        int variableStoresSymbol = 7;
+        System.out.println(variableStoresSymbol);
 
         // сотни равны?
         boolean hasHundredsEqual = true;
@@ -128,11 +128,11 @@ public class VariableNamesTheme {
         System.out.println(create);
 
         // пустое 
-        boolean isempty = false;
+        boolean isEmpty = false;
         System.out.println(isEmpty);
 
         // активное 
-        boolean isactivity = true;
+        boolean isActivity = true;
         System.out.println(isActivity);
 
         // новое
@@ -141,7 +141,7 @@ public class VariableNamesTheme {
 
         // электронная почта действительная
         boolean isEmailValid = true;
-        System.out.println(isEmailIsValid);
+        System.out.println(isEmailValid);
 
         // имеются уникальные строки
         boolean hasUniqueStrings = true;

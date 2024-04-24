@@ -1,39 +1,39 @@
 public class VariableNamesTheme {
-
     public static void main(String[] args) {
+
+        System.out.println("\n1. Разные переменные: ");
+
         // цифра
         int number = 7;
         System.out.println(number);
 
-        // сумма простых чисел
-        int sum = 1 + 2;
+        // сумма чисел
+        int sum = 1;
         System.out.println(sum);
 
         // произведение чисел
-        int x = 6;
-        int y = 4;
-        int z = x * y;
-        System.out.println(z);
+        int productOfNumbers = 6;
+        System.out.println(productOfNumbers);
 
         // максимально число
         int max = 43;
         System.out.println(max);
 
         // количество десятков
-        int numberOfTens = 10;
+        byte numberOfTens = 6;
         System.out.println(numberOfTens);
 
         // вес собаки
-        int sizeDogWeight = 14;
-        System.out.println(sizeDogWeight);
+        int dogWeight = 14;
+        System.out.println(dogWeight);
 
         // целое число
         int originalNumber = 5;
         System.out.println(originalNumber);
 
         // процент по вкладу
-        int interestOnDeposit = 15;
-        System.out.println(interestOnDeposit);
+        float interestRate = 15;
+        System.out.println(interestRate);
 
         // код ошибки
         int errorCode = 144;
@@ -56,8 +56,8 @@ public class VariableNamesTheme {
         System.out.println(messageType);
 
         // математическое выражение
-        int mathematicalExpression = 67;
-        System.out.println(mathematicalExpression);
+        float mathExpression = 67;
+        System.out.println(mathExpression);
 
         // случайное число
         int randomNumber = 5;
@@ -76,12 +76,14 @@ public class VariableNamesTheme {
         System.out.println(startDate); 
 
         // имя работника месяца
-        int fullNameEmployeeOfMonth = 2;
-        System.out.println(fullNameEmployeeOfMonth);
+        String nameEmployeeMonth = "Alexsanr";
+        String space = " ";
+        String lastName = "Prohorov";
+        System.out.println(nameEmployeeMonth + space + lastName);
 
         // заголовок электронной книги
-        int titleOfEbook = 3;
-        System.out.println(titleOfEbook);
+        int ebookTitle = 3;
+        System.out.println(ebookTitle);
 
         // окончание диапазона
         int endOfRange = 6;
@@ -108,20 +110,22 @@ public class VariableNamesTheme {
         System.out.println(numberOfNumbersInEachRow);
 
         // переменная хранит символ &
-        int variableStoresSymbol = 7;
-        System.out.println(variableStoresSymbol);
+        char ampersand = '&';
+        System.out.println(ampersand);
+
+        System.out.println("\n2. boolean переменные");
 
         // сотни равны?
-        boolean hasHundredsEqual = true;
-        System.out.println(hasHundredsEqual);
+        boolean hasEqualHundreds = true;
+        System.out.println(hasEqualHundreds);
 
         // компьютер включен?
-        boolean hasComputerIsTurnedOn = false;
-        System.out.println(hasComputerIsTurnedOn);
+        boolean isTurnedOnPc = false;
+        System.out.println(isTurnedOnPc);
 
         // есть равные цифры
-        boolean hasEualNmbers = true;
-        System.out.println(hasEualNmbers);
+        boolean hasEualNumbers = true;
+        System.out.println(hasEualNumbers);
 
         // создано
         boolean create = false;
@@ -147,6 +151,8 @@ public class VariableNamesTheme {
         boolean hasUniqueStrings = true;
         System.out.println(hasUniqueStrings);
 
+        System.out.println("\n3. Аббревиатуры");
+
         // старый universally unique identifier
         long oldUuid = 78;
         System.out.println(oldUuid);
@@ -156,8 +162,8 @@ public class VariableNamesTheme {
         System.out.println(ram);
 
         // емкость жесткого диска
-        int hdd = 67;
-        System.out.println(hdd);
+        int hddc = 67;
+        System.out.println(hddс);
 
         // протокол передачи гипертекста
         int http = 895;

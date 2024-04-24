@@ -1,6 +1,5 @@
 public class VariableNamesTheme {
     public static void main(String[] args) {
-
         System.out.println("\n1. Разные переменные: ");
 
         // цифра
@@ -76,10 +75,8 @@ public class VariableNamesTheme {
         System.out.println(startDate); 
 
         // имя работника месяца
-        String nameEmployeeMonth = "Alexsanr";
-        String space = " ";
-        String lastName = "Prohorov";
-        System.out.println(nameEmployeeMonth + space + lastName);
+        String nameEmployeeMonth = "AlexsanrProhorovOlegovich";
+        System.out.println(nameEmployeeMonth);
 
         // заголовок электронной книги
         int ebookTitle = 3;
@@ -128,24 +125,24 @@ public class VariableNamesTheme {
         System.out.println(hasEualNumbers);
 
         // создано
-        boolean create = false;
-        System.out.println(create);
+        boolean isCreated = false;
+        System.out.println(isCreated);
 
         // пустое 
         boolean isEmpty = false;
         System.out.println(isEmpty);
 
         // активное 
-        boolean isActivity = true;
-        System.out.println(isActivity);
+        boolean isActive = true;
+        System.out.println(isActive);
 
         // новое
         boolean isNew = false;
         System.out.println(isNew);
 
         // электронная почта действительная
-        boolean isEmailValid = true;
-        System.out.println(isEmailValid);
+        boolean isValidEmail = true;
+        System.out.println(isValidEmail);
 
         // имеются уникальные строки
         boolean hasUniqueStrings = true;
@@ -158,24 +155,24 @@ public class VariableNamesTheme {
         System.out.println(oldUuid);
 
         // Производитель оперативной памяти
-        int ram = 0;
-        System.out.println(ram);
+        byte manufacturerRam = 8;
+        System.out.println(manufacturerRam);
 
         // емкость жесткого диска
-        int hddc = 67;
-        System.out.println(hddс);
+        int hdCapacity = 67;
+        System.out.println(hdCapacity);
 
         // протокол передачи гипертекста
-        int http = 895;
+        String http = "https://app.slack.com/client/T04UYDFS8CD/dms";
         System.out.println(http);
 
         // сокращенный uniform resource locator
-        int url = 90;
-        System.out.println(url);
+        String abbreviatedUrl = "какой-то указатель ресурсов";
+        System.out.println(abbreviatedUrl);
 
         // новый идентификатор клиента
-        int newClientId = 12376;
-        System.out.println(newClientId);
+        String newCid = "van7676y";
+        System.out.println(newCid);
 
         // кодировка american standard code for information interchange
         int ascii = 87;

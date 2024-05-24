@@ -1,4 +1,4 @@
-public class VariablesTheme {
+public class Main {
     public static void main(String[] args) {
         System.out.println("\n1. Вывод характеристик компьютера: ");
  
@@ -8,6 +8,7 @@ public class VariablesTheme {
         short hddSize = 1;
         int ssdSize = 232;;
         float cpuCores = 6;
+        char processorIntel = 'C';
         boolean isPcOn = true;
         System.out.println("\nВидеопамять: " + vramAmount + 
                 "\nЧастота процессора: " + cpuFrequency + 
@@ -94,14 +95,14 @@ public class VariablesTheme {
         int number = 123;
         int hundreds = (number / 100);
         int tens = (number / 10) % 10;
-        int ones = 3;
-        int sum1 = hundreds + tens + ones;
+        int ones = number % 10;
+        int sum = hundreds + tens + ones;
         int product = hundreds * tens * ones;
         System.out.println("число number содержит: " + number + 
                 "\nсотни -"+ hundreds + 
                 "\nдесятки -" + tens + 
                 "\nединицы -" + ones + 
-                "\nсумма всех цифр =: " + sum1 + 
+                "\nсумма всех цифр =: " + sum + 
                 "\nпроизведение равно =: " + product);
 
         System.out.println("\n9 Вывод времени");
@@ -112,4 +113,3 @@ public class VariablesTheme {
         System.out.println(hh + ":" + mm + ":" + ss);
     }
 }
-

@@ -1,4 +1,4 @@
-public class Main {
+public class VariablesTheme {
     public static void main(String[] args) {
         System.out.println("\n1. Вывод характеристик компьютера: ");
  
@@ -8,15 +8,16 @@ public class Main {
         short hddSize = 1;
         int ssdSize = 232;;
         float cpuCores = 6;
-        char processorIntel = 'C';
+        char systemDisk = 'C';
         boolean isPcOn = true;
         System.out.println("\nВидеопамять: " + vramAmount + 
                 "\nЧастота процессора: " + cpuFrequency + 
                 "\nОбъём оперативки: " + ramSize + 
                 "\nПамять жесткого диска: " + hddSize + 
                 "\nПамять ssd: " + ssdSize + 
-                "\nядра процессора" + cpuCores + 
-                "\nпк включен: ");
+                "\nядра процессора: " + cpuCores + 
+                "\nДиск : " + disk +
+                "\n пк включен " + isPcOn);
 
         System.out.println("\n2. Расчет стоимости товара со скидкой: ");
 
@@ -96,10 +97,10 @@ public class Main {
         int hundreds = (number / 100);
         int tens = (number / 10) % 10;
         int ones = number % 10;
-        int sum = hundreds + tens + ones;
+        sum = hundreds + tens + ones;
         int product = hundreds * tens * ones;
         System.out.println("число number содержит: " + number + 
-                "\nсотни -"+ hundreds + 
+                "\nсотни -" + hundreds + 
                 "\nдесятки -" + tens + 
                 "\nединицы -" + ones + 
                 "\nсумма всех цифр =: " + sum + 
@@ -113,3 +114,4 @@ public class Main {
         System.out.println(hh + ":" + mm + ":" + ss);
     }
 }
+

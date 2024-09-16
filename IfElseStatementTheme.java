@@ -121,6 +121,15 @@ public class IfElseStatementTheme {
 
     // gpa - grade point average
     
+    System.out.println("\n8. Расчет годовой прибыли");
+    double sale = 13025.233;
+    double rent = 5123.018;
+    double production = 9001.729;
 
+    if (production + rent < sale){
+        System.out.println("Прибыл за год +321,01");
+    } else if (production + rent > sale){
+        System.out.println("Прибыль за год -123.12");
+    }
   }
 }
